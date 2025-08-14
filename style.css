@@ -12,7 +12,6 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
-
 #navbar {
   display: flex;
   justify-content: space-between;
@@ -32,7 +31,10 @@ body {
 #navbar h3:hover {
   color: hotpink;
 }
-
+a{
+  text-decoration: none;
+  color:white;
+}
 hr.horizontal-line {
   border: none;
   height: 1px;
