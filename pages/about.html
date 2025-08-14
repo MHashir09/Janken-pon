@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About Game</title>
+    <link rel="icon" type="image/png" href="../icons/favicon.png" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        max-width: 100vw;
+        background-image: url("https://kaomoji.ru/images/bg_sakura.png");
+        justify-content: center;
+      }
+      #content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin: 40px 40px;
+        background-color: whitesmoke;
+        box-shadow: 0 4px 6px grey;
+        border-radius: 15px;
+      }
+      .main {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        align-items: center;
+        justify-content: space-between;
+      }
+      p {
+        padding: 15px 35px;
+        font-size: 20px;
+        font-weight: 500;
+      }
+      a {
+        text-decoration: none;
+        color: hotpink;
+        font-weight: 600;
+        cursor: pointer;
+      }
+      h1 {
+        border-bottom: 1px solid hotpink;
+        padding-bottom: 2px;
+        margin-top: 8px;
+      }
+      button {
+        margin: 15px 0;
+        background-color: #555555;
+        color: white;
+        padding: 10px 22px;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      .image {
+        padding: 0 35px;
+      }
+      img {
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="content">
+      <div class="main">
+        <h1>GAME INFO (✯◡✯)</h1>
+        <p>
+          Welcome nakama !! Thanks for choosing to play this mini game (≧◡≦)
+        </p>
+        <p>
+          <strong>Instructions</strong> for playing this game are really simple.
+          This game comprises of 5 rounds, each round you will have to select
+          any of the rock,paper and scissors by clicking their designated
+          buttons in the "you" section. After all 5 rounds are completed you
+          will be automatically redirected to a webpage depending if you
+          won,lost or the match resulted in draw, from there you can choose to
+          restart the game and play it again or just yk admire my theming and
+          give me a star on github ehehe ٩(◕‿◕｡)۶ (am just kiding lol).
+        </p>
+        <p>
+          A little bit on why I named this mini-project
+          <strong>"Janken-pon"</strong> instead of rock-paper-scissors right
+          away, its simple thats what rock-paper-scissors are called in Japan.
+          Although their way of playing this game is quite different but still
+          their are some similarities you can learn more about it from
+          <a
+            href="https://cotoacademy.com/how-to-play-rock-scissors-paper-in-japanese-janken-scissors-papaper-stone-japanese/"
+            >here</a
+          >
+          if you are interested. Lol I started to yap (￣▽￣*)ゞ, anyways....
+        </p>
+        <p>
+          Thanks for wasting your time here, if you are willing to play click
+          the button below. Enjoy 。.:☆*:･'(*⌒―⌒*)))
+        </p>
+        <button>Start Game</button>
+      </div>
+      <div class="image">
+        <img src="../icons/anya.png" alt="goofy anya" />
+      </div>
+    </div>
+    <script>
+      const button = document.querySelector("button");
+
+      button.addEventListener("click", () => {
+        window.location.href = "../index.html";
+      });
+    </script>
+  </body>
+</html>
