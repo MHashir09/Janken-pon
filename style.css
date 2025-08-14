@@ -44,7 +44,7 @@ hr.horizontal-line {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 40px 0;
+  margin: 40px 0 70px 0;
 }
 .game{
   display:flex;
@@ -90,5 +90,15 @@ hscore, cscore{
   padding: 12px;
   font-size: 18px;
   font-weight: 700;
-  color: hotpink;
+color: hotpink;
+}
+#footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.foottxt{
+  padding-bottom: 4px;
 }
