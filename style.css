@@ -36,7 +36,7 @@ body {
 hr.horizontal-line {
   border: none;
   height: 1px;
-  background-color: #b0b0b0;
+  background-color: hotpink;
 }
 #content{
   display: flex;
@@ -44,7 +44,9 @@ hr.horizontal-line {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 40px 0 70px 0;
+  padding: 40px 0 70px 0;
+  background-color: whitesmoke;
+  color: black;
 }
 .game{
   display:flex;
@@ -63,6 +65,10 @@ button{
   width: 35%;
   cursor: pointer;
 }
+.crock, .cpaper, .cscissor {
+  all: unset;
+  width: 35%;
+}
 .rock, .paper, .scissor{
   width: 100%;
   display: flex;
@@ -76,21 +82,21 @@ h1{
 }
 .verticleline{
   width: 1px;
-  outline: 2px solid white;
+  outline: 2px solid black;
   height: 475px;
-  margin-top: 25px;
+  margin: 25px 0 75px 0;
 }
 .score h2 {
   text-align: center;
   padding: 20px 30px 20px 20px;
   font-weight: 900;
 }
-hscore, cscore{
+.hscore, .cscore{
   text-align: center;
   padding: 12px;
-  font-size: 18px;
+  font-size: 32px;
   font-weight: 700;
-color: hotpink;
+  color: hotpink;
 }
 #footer{
   display: flex;
