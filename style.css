@@ -110,3 +110,6 @@ h1{
 .foottxt{
   padding-bottom: 4px;
 }
+.computer-button-highlight {
+  box-shadow: 0 4px 12px rgba(255, 20, 147, 0.3), 0 2px 6px rgba(255, 105, 180, 0.5);
+}
